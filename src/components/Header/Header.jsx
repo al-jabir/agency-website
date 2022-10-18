@@ -36,7 +36,7 @@ const Header = () => {
           <div className='navigation'>
             <ul className='menu'>
               {nav_list.map((item, inx) => (
-                <li className='menu_item'>
+                <li className='menu_item' key={inx}>
                   <a href={item.path} className='link'>
                     {item.display}
                   </a>
@@ -46,7 +46,7 @@ const Header = () => {
           </div>
           <div className='light_mode'>
             <span>
-              <i class='ri-sun-line'></i> Light Mode
+              <i className='ri-sun-line'></i> Light Mode
             </span>
           </div>
         </div>
