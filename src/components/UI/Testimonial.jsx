@@ -43,6 +43,44 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
+            {/* <div className='slider-item'>
+              <p className='des'>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos ab
+                fuga fugiat optio quas voluptatem ullam dignissimos sit alias
+                magni, nemo reiciendis ipsa dolorem asperiores consectetur
+                recusandae totam neque suscipit provident facilis iusto
+                doloribus! Vero earum velit doloremque quo doloribus!
+              </p>
+              <div className='customer-details'>
+                <div className='customer-img'>
+                  <img src={ava1} alt='ava' />
+                </div>
+                <div>
+                  <h5 className='customer-name'>Jonh Doe</h5>
+                  <p className='des'>
+                    Co Founder, Software Engineer at Ajsoft Tech
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='slider-item'>
+              <p className='des'>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos ab
+                fuga fugiat optio quas voluptatem ullam dignissimos sit alias
+                magni, nemo reiciendis ipsa dolorem asperiores consectetur
+                recusandae totam neque suscipit provident facilis iusto
+                doloribus! Vero earum velit doloremque quo doloribus!
+              </p>
+              <div className='customer-details'>
+                <div className='customer-img'>
+                  <img src={ava1} alt='ava' />
+                </div>
+                <div>
+                  <h5 className='customer-name'>Jonh Doe</h5>
+                  <p className='des'>CEO, Software Engineer at Tesla</p>
+                </div>
+              </div>
+            </div> */}
           </Slider>
         </div>
       </div>
