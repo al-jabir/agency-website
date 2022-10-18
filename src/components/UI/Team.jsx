@@ -1,29 +1,32 @@
 import React from 'react';
-import teamImg from '../../assets/pc2.jpg';
+import teamImg1 from '../../assets/team-01.png';
+import teamImg2 from '../../assets/team-02.png';
+import teamImg3 from '../../assets/team-03.png';
+import teamImg4 from '../../assets/team-04.png';
 import '../../styles/Team.css';
 
 const teamMember = [
   {
     id: 1,
-    imgUrl: teamImg,
+    imgUrl: teamImg1,
     name: 'Country Hurry',
     position: 'Product Developer',
   },
   {
     id: 1,
-    imgUrl: teamImg,
+    imgUrl: teamImg2,
     name: 'Lindas Walton',
     position: 'Cyber Developer',
   },
   {
     id: 1,
-    imgUrl: teamImg,
+    imgUrl: teamImg3,
     name: 'Sarrah Tylor',
     position: 'Frontend Developer',
   },
   {
     id: 1,
-    imgUrl: teamImg,
+    imgUrl: teamImg4,
     name: 'Emmily',
     position: 'CEO & Software Developer',
   },

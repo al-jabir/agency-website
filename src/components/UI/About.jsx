@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImg from '../../assets/pc2.jpg';
+import aboutImg from '../../assets/about-us.jpg';
 import '../../styles/About.css';
 
 const chooseData = [
@@ -7,28 +7,19 @@ const chooseData = [
     id: 1,
     icon: 'ri-wifi-line',
     title: `First working proccess`,
-    des: ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non,
-        pariatur? Eum, nobis! Necessitatibus nesciunt fuga similique
-        praesentium eligendi sint explicabo laboriosam quia repudiandae
-        repellat enim quo, perferendis temporibus tempore culpa.`,
+    des: ` Lorem ipsum dolor, sit amet adipisicing elit. Non,laboriosam quia repudiandae repellat enim quo, perferendis temporibus tempore.`,
   },
   {
     id: 2,
     icon: 'ri-team-line',
     title: `Dedicated team`,
-    des: ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non,
-        pariatur? Eum, nobis! Necessitatibus nesciunt fuga similique
-        praesentium eligendi sint explicabo laboriosam quia repudiandae
-        repellat enim quo, perferendis temporibus tempore culpa.`,
+    des: ` Lorem ipsum dolor, sit amet adipisicing elit. Non,laboriosam quia repudiandae repellat enim quo, perferendis temporibus tempore.`,
   },
   {
     id: 3,
     icon: 'ri-customer-service-2-line',
     title: `24/7 Hours support`,
-    des: ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non,
-        pariatur? Eum, nobis! Necessitatibus nesciunt fuga similique
-        praesentium eligendi sint explicabo laboriosam quia repudiandae
-        repellat enim quo, perferendis temporibus tempore culpa.`,
+    des: ` Lorem ipsum dolor, sit amet adipisicing elit. Non,laboriosam quia repudiandae repellat enim quo, perferendis temporibus tempore.`,
   },
 ];
 
@@ -43,9 +34,9 @@ const About = () => {
             <h2 className='highlight'>financial challenges</h2>
             <p className='des about-content-des'>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non,
-              pariatur? Eum, nobis! Necessitatibus nesciunt fuga similique
-              praesentium eligendi sint explicabo laboriosam quia repudiandae
-              repellat enim quo, perferendis temporibus tempore culpa.
+              pariatur? Eum, nobis! Necessitatibus nesciunt fuga similique.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate, deleniti! Non, pariatur? Eum, nobis!
             </p>
             <div className='choose-us-wrapper'>
               {chooseData.map(({ id, icon, title, des }) => (

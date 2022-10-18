@@ -1,6 +1,6 @@
 import React from 'react';
+import heroImg from '../../assets/hero-img.png';
 import '../../styles/hero.css';
-
 const Hero = () => {
   return (
     <section className='hero_section'>
@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
           </div>
           <div className='hero_img'>
-            <img src='/' alt='/' />
+            <img src={heroImg} alt='hero' />
           </div>
         </div>
       </div>
