@@ -50,3 +50,31 @@
   font-size: 1.3rem;
   margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 992px) {
+  .service-top-content h2 {
+    font-size: 1.5rem;
+  }
+  .service-item-wrapper {
+    flex-wrap: wrap;
+  }
+  .service-item {
+    width: 31%;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .service-item {
+    width: 47.7%;
+  }
+  .service-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .service-item {
+    width: 100%;
+  }
+}

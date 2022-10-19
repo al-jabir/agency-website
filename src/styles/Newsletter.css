@@ -43,3 +43,26 @@
   background: var(--primary-color);
   color: #f1f1f1;
 }
+
+@media only screen and (max-width: 768px) {
+  .newsletter-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .newsletter-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .newsletter-content,
+  .newsletter-form {
+    width: 100%;
+  }
+  .newsletter-content {
+    margin-bottom: 30px;
+  }
+
+  .newsletter-form input {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+}

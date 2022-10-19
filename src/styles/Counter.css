@@ -25,3 +25,35 @@
 .counter-title {
   font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 992px) {
+  .counter-number {
+    font-size: 2rem;
+  }
+  .counter-title {
+    font-size: 1.2rem;
+  }
+  .counter-item {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .counter-number {
+    font-size: 1.5rem;
+  }
+  .counter-title {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .counter-wrapper {
+    flex-direction: column;
+  }
+
+  .counter-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

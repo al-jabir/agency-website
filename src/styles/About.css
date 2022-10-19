@@ -55,3 +55,27 @@
 .light-theme .choose-us-title {
   color: #0c123d !important;
 }
+@media only screen and (max-width: 992px) {
+  .about-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-wrapper {
+    flex-direction: column;
+  }
+  .about-content,
+  .about-img {
+    width: 100%;
+  }
+  .about-img img {
+    height: 400px !important;
+  }
+  .about-content {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+}
