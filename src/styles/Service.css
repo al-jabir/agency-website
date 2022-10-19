@@ -32,6 +32,14 @@
   border: 1px solid var(--primary-color);
 }
 
+.light-theme .service-icon {
+  background: var(--primary-color);
+}
+
+.light-theme .service-icon i {
+  color: #ffffff;
+}
+
 .service-icon i {
   font-size: 2rem;
   color: var(--primary-color);

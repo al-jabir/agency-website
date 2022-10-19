@@ -14,13 +14,13 @@ const Testimonial = () => {
     slidesToScroll: 1,
   };
   return (
-    <section>
+    <section id='testimonial'>
       <div className='container'>
         <div className='slider-content-top'>
           <h6 className='subtitle'>Testimonials</h6>
           <h2>
             Trusted by more than
-            <span className='highlight'>5,000 customers</span>
+            <span className='highlight'> 5,000 customers</span>
           </h2>
         </div>
         <div className='slider-wrapper'>

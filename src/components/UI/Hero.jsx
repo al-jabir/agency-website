@@ -1,9 +1,11 @@
 import React from 'react';
 import heroImg from '../../assets/hero-img.png';
+import lightImg from '../../assets/light-hero-bg.jpg';
 import '../../styles/hero.css';
-const Hero = () => {
+
+const Hero = ({ theme }) => {
   return (
-    <section className='hero_section'>
+    <section id='home' className='hero_section'>
       <div className='container'>
         <div className='hero_wrapper'>
           <div className='hero_content'>
@@ -22,7 +24,10 @@ const Hero = () => {
             </div>
           </div>
           <div className='hero_img'>
-            <img src={heroImg} alt='hero' />
+            <img
+              src={theme === 'light-theme' ? lightImg : heroImg}
+              alt='hero'
+            />
           </div>
         </div>
       </div>

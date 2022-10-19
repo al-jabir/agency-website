@@ -21,7 +21,7 @@ const counterData = [
 
 const Counter = () => {
   return (
-    <section className='counter'>
+    <section id='project' className='counter'>
       <div className='container'>
         <div className='counter-wrapper'>
           {counterData.map(({ number, text, id }) => (

@@ -20,7 +20,9 @@
   overflow: hidden;
   padding-top: 10px;
 }
-
+.light-theme .team-img {
+  background: #ddd;
+}
 .team-img img {
   width: 100%;
   height: 200px;
