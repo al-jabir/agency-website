@@ -60,6 +60,13 @@
   color: #555;
 }
 
+.copyright span {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-family: cursive;
+}
+
 @media only screen and (max-width: 768px) {
   .footer-logo {
     width: 50%;

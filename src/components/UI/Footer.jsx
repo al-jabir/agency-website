@@ -102,7 +102,8 @@ const Footer = () => {
           </div>
         </div>
         <div className='copyright'>
-          Copyright {year}, developed by Jabir. All rights reserved
+          Copyright {year}, developed by <span>Al Jabir</span> . All rights
+          reserved
         </div>
       </div>
     </footer>
